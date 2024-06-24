@@ -1,0 +1,6 @@
+﻿services:
+  cells.webapi:
+    image: cells.webapi
+    build:
+      context: .
+      dockerfile: Cells.WebApi/Dockerfile

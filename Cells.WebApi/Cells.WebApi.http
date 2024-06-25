@@ -1,6 +1,7 @@
-@Cells.WebApi_HostAddress = http://localhost:5293
+@Cells.WebApi_HostAddress = https://localhost:7186
 
-GET {{Cells.WebApi_HostAddress}}/weatherforecast/
+POST {{Cells.WebApi_HostAddress}}/
 Accept: application/json
+Content-Type: application/json
 
 ###
